@@ -25,11 +25,11 @@ export default {
       cars: null
     }
   },
-  mounted() {
-    axios
-        .get('http://127.0.0.1:8000/api/cars/')
-        .then(response => (this.cars = response.data.data))
-  },
+    mounted() {
+      axios
+          .get('http://127.0.0.1:8000/api/cars/')
+          .then(response => (this.cars = response.data.data))
+    },
   name: "CarTable"
 }
 </script>

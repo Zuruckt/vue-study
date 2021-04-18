@@ -4,6 +4,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
 <!--    <Contador></Contador>-->
     <CarTable></CarTable>
+    <CarForm></CarForm>
   </div>
 
 </template>
@@ -11,13 +12,15 @@
 <script>
 require('bootstrap')
 import CarTable from "./components/CarTable";
+import CarForm from "./components/CarForm";
 import Navbar from "./components/Navbar";
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    CarTable
+    CarTable,
+    CarForm
   }
 }
 
