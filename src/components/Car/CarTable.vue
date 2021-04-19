@@ -36,10 +36,9 @@ export default {
   },
   methods: {
     deleteCar(id) {
-      console.log(id)
       axios.delete('http://127.0.0.1:8000/api/cars/' + id)
           .then(() => {
-            this.cars.splice(this.cars.findIndex(element => element === id) - 1, 1);
+            this.cars.splice(this.cars.findIndex(element => element.id === id), 1);
           })
     },
     carAddedEvent(data) {
