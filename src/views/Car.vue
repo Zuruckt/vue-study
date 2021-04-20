@@ -1,17 +1,15 @@
 <template>
-  <div>
-    <CarTable/>
-  </div>
+  <Car/>
 </template>
 
 <script>
 // @ is an alias to /src
-import CarTable from "@/components/Car/CarTable";
+import Car from "@/components/Car";
 
 export default {
-  name: 'Home',
+  name: 'CarView',
   components: {
-    CarTable
+    Car
   }
 }
 </script>
