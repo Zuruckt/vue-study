@@ -25,7 +25,7 @@ export default {
     },
     multiply() {
     }
-    // fodase() {
+    // teste() {
     //   fetch('http://127.0.0.1:8000/api/cars/').then(function (response) {
     //     console.log(response.json().then(function (data) { return data}))
     //   })
