@@ -13,6 +13,9 @@
         <li class="nav-item active">
           <router-link class="nav-link" to="/cars">Carros</router-link>
         </li>
+        <li class="nav-item active">
+          <router-link class="nav-link" to="/register">Register</router-link>
+        </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
