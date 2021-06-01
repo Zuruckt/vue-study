@@ -1,4 +1,4 @@
-# vuefodase
+# vue.js
 
 ## Project setup
 ```
